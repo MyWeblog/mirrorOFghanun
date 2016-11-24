@@ -1,0 +1,37 @@
+body{
+	position: relative;
+	font-family: Arial, sans-serif;
+	font-size: large;
+	text-align: justify;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding: 2px;
+	line-height: 35px;
+	font-weight: bold;
+}
+
+HTML { text-direction: rtl; }
+
+img{ margin: -20px -30px; 
+}
+
+#nav{  background: ButtonHighlight; }
+A {
+font-size: large;
+	color: blue;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 1.5%;
+}
+
+
+A:link { color:blue;}       /* unvisited link */
+A:visited { color:#cd3265;}   /* visited links */
+A:active { color: lime; }    /* active links */
+	
+
+
+
+
+
+

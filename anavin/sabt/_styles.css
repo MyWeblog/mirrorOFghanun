@@ -1,0 +1,70 @@
+/* Just some base styles not needed for example to function */
+*, html { font-family: Verdana, Arial, Helvetica, sans-serif; vertical-align: 3px }
+
+body, form, ul, li, p, h1, h2, h3, h4, h5
+{
+	margin: 0;
+	padding: 0;
+}
+body { background-color: #FFFFFF; }
+
+img { border: none; }
+p
+{
+	font-size: 12pt;
+	margin: 0 0 1em 0;
+  font-weight: bold
+}
+
+html { font-size: 100%; height: 100%; /* IE hack */ }
+body { font-size: 0.75em; } /* Base font 12px */
+table { font-size: 100%; /* IE hack */ }
+
+input, select, textarea, th, td { font-size:1em; }
+
+/* CSS Accordion styles */
+dl
+{
+	padding: 10px;
+	min-width: 960px;
+  text-align: right
+}
+	dl dt
+	{
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		border: 1px solid #cccccc;
+		margin: 0;
+	}
+		dl dt a
+		{
+			color: #000000;
+			font-weight: bold;
+			text-decoration: none;
+			padding: 5px;
+			display: block;
+		}
+	dl dd
+	{
+		color: #000000;
+		margin: 0;
+		overflow: hidden;
+		-webkit-transition: height 1s ease;
+		-moz-transition: height 1s ease;
+		-o-transition: height 1s ease;
+	}
+		dl dd p
+		{
+			margin: 0;
+  padding-top: 20px;
+  padding-bottom: 15px
+}
+	dl dd:not(:target) { height: 0; }
+	dl dd:target { height: auto; }
+	dl a.ie:hover dd,
+	dl a.ie:focus dd
+	{
+		height: auto;
+		color: #cccccc !important;
+	}

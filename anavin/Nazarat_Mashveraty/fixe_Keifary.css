@@ -1,0 +1,83 @@
+HTML {
+text-direction: rtl;
+}
+
+
+A {
+
+text-align: center;
+
+}
+
+A:link {
+}
+
+A:hover {
+	BACKGROUND-COLOR: #95f540;
+}
+A:active {
+
+}  
+#nav {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-WEIGHT: bold; FONT-SIZE: 12pt;
+VISIBILITY: visible; PADDING-BOTTOM: 1px; OVERFLOW: auto;
+BORDER-LEFT: 1px solid #711515; BOTTOM: 1px; PADDING-TOP: 2px;
+FONT-STYLE: normal; FONT-FAMILY: "Times New Roman", serif;
+POSITION: fixed; TOP: 1px;
+TEXT-ALIGN: center; TEXT-DECORATION: none;
+margin-right: +1px;
+
+width: 17%;
+right: +1px;
+border-right: 1px solid #711515;
+border-top: 1px solid #711515;
+  z-index: 1
+}
+
+
+#nav UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px;
+     MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+
+#nav LI {border: thick double #FFFFFF;
+  border-bottom-color: #66FF00;
+  border-bottom-style: solid;
+  border-bottom-width: medium
+}
+#nav LI A:link {
+display: block;
+
+}
+#nav LI A:visited  {
+DISPLAY: block;
+ background-color: #FFCCFF;
+}
+
+#content {
+POSITION: absolute; TOP: 2px; HEIGHT: 100%;
+font-family: "Times New Roman", serif;
+font-size: x-large;
+width:77%;
+margin-right: +20%;
+padding-left: 5px;
+
+padding-right: 2px;
+  font-weight: bold;
+  line-height:   200%;
+ 
+}
+
+#content a{
+text-decoration: underline;  
+font-size: x-large;
+border-top-style: none;
+padding: 5px;
+line-height:  45px;
+
+
+}
+
+
+
+

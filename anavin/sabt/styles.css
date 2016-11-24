@@ -1,0 +1,13 @@
+
+.go-top {
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+	text-decoration: none;
+	color: white;
+
+	display: none;
+}
+
+.go-top:hover {
+}
