@@ -1,0 +1,7 @@
+git checkout -b gh-pages
+grep -lr windows-1256 * | while read p;do iconv -f windows-1256 -t utf8 $p -o $p; done
+git add --all
+git commit and push
+
+*master		: original wget -r
+*gh-apages	: after change to utf-8
